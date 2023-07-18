@@ -92,8 +92,7 @@ header ul img {
 }
 .main-section img {
     max-width: 25rem;
-    width: 100%;
-    margin-bottom: -4.5px;
+    width: 95%;
 }
 .main-section-container {
     max-width: 430px;
@@ -102,6 +101,10 @@ header ul img {
 }
 .main-section-container * {
     margin: 1rem 0;
+}
+.main-section figure {
+    display: flex;
+    justify-content: center;
 }
 p {
     font-size: 27px;
@@ -161,11 +164,11 @@ footer {
 footer ul {
     list-style: none;
     font-weight: 100;
-    line-height: 2rem;
     margin: 2rem 1rem;
 }
 .footer-container li {
     cursor: pointer;
+    margin: 1rem 0;
 }
 .footer-logo {
     align-items: center;
